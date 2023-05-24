@@ -1,0 +1,98 @@
+.navbar{
+    padding: 20px;
+    background-color:whitesmoke;
+     }
+     .nav-item{
+        font-family: sans-serif;
+        font-size: 15px;
+        border-radius: 0;
+         margin: 9px 20px 0 20px;
+     }
+     .navbar-brand
+     {
+        font-family:serif;
+    font-size: 20px;
+    font-weight:700;
+    color: #333;
+     }
+     .nav-link{
+        font-size:16px;
+        font-family:Georgia, 'Times New Roman', Times, serif
+     }
+     .background-image {
+        position: relative; /* Set the container as relative */
+        background-image:url("https://cdn.pixabay.com/photo/2016/11/29/10/02/pile-1868894_960_720.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 657px; /* Set the desired height of the container */
+      }
+  
+      .text-overlay {
+        position: absolute; /* Position the text overlay absolutely within the container */
+        top: 50%; /* Adjust the top position as needed */
+        left: 50%; /* Adjust the left position as needed */
+        transform: translate(-50%, -50%); /* Center the text horizontally and vertically */
+        color: white; /* Set the text color */
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 24px; /* Set the font size */
+        font-weight: bold; /* Set the font weight */
+        text-align: center; /* Set the text alignment */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for better visibility */
+      }
+      
+    
+    .about-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    .about-photo {
+        flex: 0 0 300px; /* Set the width of the photo container */
+        
+    }
+    .about-content {
+        flex: 1; /* Let the content take remaining width */
+        padding-left: 30px; /* Add some spacing between the photo and content */
+    }
+    .we{
+        text-align:left;
+        padding-top:50px;
+        margin-top:80px;
+        font-family: sans-serif;
+    }    
+    .roow{
+        text-align: left;
+        padding-top: 380px;
+        margin-top: -190px;
+         ;
+    }    
+    .un0{
+        text-align-last: center;
+        /* text-align: center; */
+        padding-left: 10px;
+        padding-bottom: 9%;
+    }
+    .form-control{
+        background-color: whitesmoke;
+    }
+    .moving-text {
+        position:relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        height: 80px;
+        
+        animation: circularMovement 10s linear infinite;
+    }
+
+    @keyframes circularMovement {
+        0% {
+            transform: translate(-50%, -50%) rotate(0deg) translateX(200px) rotate(0deg);
+        }
+        100% {
+            transform: translate(-50%, -50%) rotate(1turn) translateX(200px) rotate(-1turn);
+        }
+    }
+    
